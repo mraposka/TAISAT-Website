@@ -1,4 +1,5 @@
-﻿<?php include 'header.php'; ?>
+﻿<?php include 'header.php';
+$page_title = "Greenguard"; ?>
 
 <section class="content_info">
     <!-- Info Resalt-->
@@ -38,7 +39,7 @@
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                        <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-certificate"></i>
                             <h3>
                                 Ultra Retina ready desing
                                 <span>sed do eiusmod tempor</span>
@@ -54,14 +55,14 @@
                 </div>
 
                 <div class="col-sm-6 col-md-4 wow fadeInUp">
-                    <img class="img-responsive" src="img/services/5.png" alt="">
+                    <img class="img-responsive" src="img/gallery/ika.png" alt="">
                 </div>
 
                 <div class="col-sm-6 col-md-4 wow fadeInRight">
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                        <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-certificate"></i>
                             <h3>
                                 Ultra Retina ready desing
                                 <span>sed do eiusmod tempor</span>
@@ -78,7 +79,7 @@
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                        <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-certificate"></i>
                             <h3>
                                 Ultra Retina ready desing
                                 <span>sed do eiusmod tempor</span>
@@ -108,10 +109,7 @@
             <div class="circle_bottom"></div>
         </div>
         <div class="info_vertical">
-            <h1>Our <span>Gallery</span>.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                et
-                dolore magna aliqua ut enim ad minim veniam.</p>
+            <h1><span>Galeri</span></h1> 
         </div>
     </div>
     <!-- End Info title Blog-->
@@ -121,59 +119,44 @@
             <div class="col-md-12">
                 <!-- Carousel Gallery-->
                 <ul class="owl-carousel carousel-portfolio" id="carousel-portfolio">
+                    <?php
+                    include 'database.php';
+                    $conn = new mysqli($servername, $username, $password, $dbname);
+                    if ($conn->connect_error) {
+                        die("Connection failed: " . $conn->connect_error);
+                    }
 
-                    <li>
-                        <div class="hover">
-                            <img src="img/gallery/1.jpeg" alt="">
-                            <a href="img/gallery/1.jpeg" class="ligbox-image" title="Image">
-                                <div class="overlay"></div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            Responsive Design
-                            <i class="fa fa-tablet"></i>
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hover">
-                            <img src="img/gallery/2.jpeg" alt="">
-                            <a href="img/gallery/2.jpeg" class="ligbox-image" title="Image">
-                                <div class="overlay"></div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            Responsive Design
-                            <i class="fa fa-tablet"></i>
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hover">
-                            <img src="img/gallery/3.jpeg" alt="">
-                            <a href="img/gallery/3.jpeg" class="ligbox-image" title="Image">
-                                <div class="overlay"></div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            Responsive Design
-                            <i class="fa fa-tablet"></i>
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="hover">
-                            <img src="img/gallery/4.jpeg" alt="">
-                            <a href="img/gallery/4.jpeg" class="ligbox-image" title="Image">
-                                <div class="overlay"></div>
-                            </a>
-                        </div>
-                        <div class="info">
-                            Responsive Design
-                            <i class="fa fa-tablet"></i>
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                    </li>
+                    $sql = "SELECT * FROM gallery";
+                    $result = $conn->query($sql);
+                    $group_id = "-1";
+                    if ($result->num_rows > 0) {
+                        // output data of each row
+                        while ($row = $result->fetch_assoc()) {
+                            if ($row["image_group"] == "1") //ika
+                            {
+                                ?>
+                                <li>
+                                    <div class="hover">
+                                        <img src="img/gallery/<?php echo $row["image_url"];?>" alt="">
+                                        <a href="img/gallery/<?php echo $row["image_url"];?>" class="ligbox-image" title="Image">
+                                            <div class="overlay"></div>
+                                        </a>
+                                    </div>
+                                    <div class="info">
+                                        Responsive Design
+                                        <i class="fa fa-tablet"></i>
+                                        <i class="fa fa-desktop"></i>
+                                    </div>
+                                </li>
+                                <?php
+                            }
+                        }
+                    } else {
+                        echo "0 results";
+                    }
+                    $conn->close();
+                    ?>
+
 
                 </ul>
                 <!--End Carousel Gallery-->
@@ -183,51 +166,52 @@
     <!-- End Info Resalt-->
 </section>
 <section class="content_info">
-                <!-- Vide Background -->
-                <video class="bg_video" preload="auto" autoplay="autoplay" loop="" muted="" poster='img/slide/slides/4.jpg' data-setup="{}">
-                    <source src="img/video/video.mp4" type="video/mp4">
-                    <source src="img/video/video-sections.webm" type="video/webm">
-                </video>
-                <!-- Vide Background -->
+    <!-- Vide Background -->
+    <video class="bg_video" preload="auto" autoplay="autoplay" loop="" muted="" poster='img/slide/slides/4.jpg'
+        data-setup="{}">
+        <source src="img/video/video.mp4" type="video/mp4">
+        <source src="img/video/video-sections.webm" type="video/webm">
+    </video>
+    <!-- Vide Background -->
 
-                <!-- Content Video-->
-                <section class="opacy_bg_02 paddings">
-                    <div class="container wow fadeInUp">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h1>Section with video background</h1>
-                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini">&nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini">&nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                            <div class="col-md-12 text-center padding-top-mini"> &nbsp;
-                            </div>
-                        </div>
-                    </div> 
-                </section>  
-                <!-- End Content Video--> 
-            </section>   
+    <!-- Content Video-->
+    <section class="opacy_bg_02 paddings">
+        <div class="container wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Section with video background</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                </div>
+                <div class="col-md-12 text-center padding-top-mini">&nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini">&nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+                <div class="col-md-12 text-center padding-top-mini"> &nbsp;
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Content Video-->
+</section>
 <!-- Info title Blog-->
 <div style="background-color:#f5f5f5;" class="row info_title wow fadeInUp padding borders" id="blog">
     <div class="vertical_line">
         <div class="circle_bottom"></div>
     </div>
     <div class="info_vertical">
-        <h1>Latest <span>Posts</span>.</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua ut enim ad minim veniam.</p>
+        <h1>Son<span> Paylaşımlar</span></h1> 
     </div>
 </div>
 <!-- End Info title Blog-->
@@ -266,8 +250,8 @@
                 </div>
                 <!-- End Item Post 01-->
 
-                  <!-- Item Post 01-->
-                  <div class="col-sm-6 col-md-4">
+                <!-- Item Post 01-->
+                <div class="col-sm-6 col-md-4">
                     <div class="blog-content">
                         <div class="entry-header">
                             <div class="blog-image">
@@ -294,8 +278,8 @@
                 </div>
                 <!-- End Item Post 01-->
 
-                  <!-- Item Post 01-->
-                  <div class="col-sm-6 col-md-4">
+                <!-- Item Post 01-->
+                <div class="col-sm-6 col-md-4">
                     <div class="blog-content">
                         <div class="entry-header">
                             <div class="blog-image">
@@ -322,7 +306,7 @@
                 </div>
                 <!-- End Item Post 01-->
 
-                 
+
             </div>
         </div>
     </div>

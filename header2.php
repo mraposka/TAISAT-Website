@@ -4,7 +4,7 @@
 <head>
     <!-- Basic -->
     <meta charset="utf-8">
-    <title>Jekas - Software, Studio and Corporate Responsive Template</title>
+    <title>TAISAT</title>
     <meta name="keywords" content="HTML5 Template">
     <meta name="description" content="Jekas is a Software, Studio and Corporate Responsive Template">
     <meta name="author" content="iwthemes.com">
@@ -53,7 +53,7 @@
                         <!-- Logo-->
                         <div class="col-md-3 logo">
                             <a href="index.html" title="Back to Home">
-                                <img src="img/logo.png" alt="Logo" class="logo_img">
+                                <img style="width:70%; filter: brightness(0) invert(1);" src="img/gallery/taisatlogo.png" alt="Logo" class="logo_img">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -63,20 +63,20 @@
                             <!-- Menu-->
                             <ul id="menu" class="sf-menu">
                                 <li>
-                                    <a href="index.php">Home</a>
+                                    <a href="index.php">Anasayfa</a> 
                                 </li>
                                 <li>
-                                    <a href="about.php">About</a>
+                                    <a href="about.php">Hakkımızda</a>
                                 </li>
 
                                 <li>
-                                    <a href="gallery.php">Gallery</a>
+                                    <a href="gallery.php">Galeri</a>
                                 </li>
                                 <li>
-                                    <a href="page-faq.html">FAQ</a>
+                                    <a href="faq.php">SSS</a>
                                 </li>
                                 <li>
-                                    <a href="page-contact-02.html">Contact</a>
+                                    <a href="contact.php">İletişim</a>
                                 </li>
                             </ul>
                             <!-- End Menu-->
