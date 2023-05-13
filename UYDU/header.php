@@ -5,10 +5,7 @@
 <head>
     <!-- Basic -->
     <meta charset="utf-8">
-    <title>TAISAT - MARM99</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Jekas is a Software, Studio and Corporate Responsive Template">
-    <meta name="author" content="iwthemes.com">
+    <title>TAISAT - MARM99</title> 
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +16,11 @@
     <!-- Skins Theme -->
     <link type="text/css" media="screen" rel="stylesheet" href="#" class="skin_color">
 
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <!-- Favicons --> 
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--[if IE]>
             <link rel="stylesheet" href="css/ie/ie.css">
         <![endif]-->

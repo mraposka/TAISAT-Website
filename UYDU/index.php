@@ -1,5 +1,5 @@
 ﻿<?php include 'header.php';
-$page_title = "Greenguard"; ?>
+$page_title = "Marm-99"; ?>
 
 <section class="content_info">
     <!-- Info Resalt-->
@@ -22,7 +22,7 @@ $page_title = "Greenguard"; ?>
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-signal"></i>
                             <h3>Uzun Mesafe Haberleşme</h3>
                         </div>
                         <div class="caption-service-02">
@@ -31,7 +31,7 @@ $page_title = "Greenguard"; ?>
                     </div>
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-database"></i>
                             <h3>Veri Deposu</h3>
                         </div>
                         <div class="caption-service-02">
@@ -43,7 +43,7 @@ $page_title = "Greenguard"; ?>
                     <!-- Item Service 02 -->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                        <i style="background-color:black;" class="fa fa-battery"></i>
                             <h3>Uzun Ömür</h3>
                         </div>
                         <div class="caption-service-02">
@@ -61,7 +61,7 @@ $page_title = "Greenguard"; ?>
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-life-ring "></i>
                             <h3>Dayanıklı Tasarım</h3>
                         </div>
                         <div class="caption-service-02">
@@ -71,7 +71,7 @@ $page_title = "Greenguard"; ?>
                     </div>
                     <!-- Item Service 02-->
 
-                    <!-- Item Service 02--> 
+                    <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
                             <i style="background-color:black;" class="fa fa-certificate"></i>
@@ -83,12 +83,11 @@ $page_title = "Greenguard"; ?>
                     </div>
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
-                            <h3>Dayanıklı Tasarım</h3>
+                            <i style="background-color:black;" class="fa fa-map-marker"></i>
+                            <h3>Harita Üzeri Konumlama</h3>
                         </div>
                         <div class="caption-service-02">
-                            <p>113mm çapında 748gram ağırlığında özgün bal peteği tasarımı ile hasara karşı yüksek
-                                mukavemet</p>
+                            <p>2,5 metre hassasiyetli konum saptayabilme</p>
                         </div>
                     </div>
                     <!-- Item Service 02-->
@@ -132,7 +131,7 @@ $page_title = "Greenguard"; ?>
                     if ($result->num_rows > 0) {
                         // output data of each row
                         while ($row = $result->fetch_assoc()) {
-                            if ($row["image_group"] == "2" && $row["filter"]=="tasarim") //uydu
+                            if ($row["image_group"] == "2" && $row["filter"] == "tasarim") //uydu
                             {
                                 ?>
                                 <li>
