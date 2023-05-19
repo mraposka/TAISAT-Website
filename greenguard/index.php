@@ -17,61 +17,97 @@ $page_title = "Greenguard"; ?>
             </div>
 
             <!-- hot-features-->
-            <div class="row hot-features padding-top">
-                <div class="col-sm-6 col-md-4 wow fadeInLeft">
+            <div class="row hot-features">
+                <div class="col-md-4 wow fadeInLeft">
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-cogs"></i>
                             <h3>
-                                Ultra Retina ready desing
-                                <span>sed do eiusmod tempor</span>
+                                Paletli Yürüyüş Sistemi
                             </h3>
                         </div>
                         <div class="caption-service-02">
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                et.
-                                Ut wisi enim ad minim veniam, quis nostrud.</p>
+                            <p>Zorlu konuşullarda bile hareket kabiliyeti</p>
                         </div>
                     </div>
                     <!-- Item Service 02-->
-
-                    <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa fa-life-ring "></i>
                             <h3>
-                                Ultra Retina ready desing
-                                <span>sed do eiusmod tempor</span>
+                                Dayanıklı Tasarım
                             </h3>
                         </div>
                         <div class="caption-service-02">
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                et.
-                                Ut wisi enim ad minim veniam, quis nostrud.</p>
+                            <p>Çift iç ve dış olarak 4mm sac ile güçlendirilmiş ABS gövde ve şase</p>
+                        </div>
+                    </div>
+                    <div class="service-02">
+                        <div class="head-service-02">
+                            <i style="background-color:black;" class="fa-solid fa-dumbbell"></i>
+                            <h3>
+                                Motor Gücü
+                            </h3>
+                        </div>
+                        <div class="caption-service-02">
+                            <p>Redüktörlü DC motor ile tork ve hız dengesi</p>
+                        </div>
+                    </div>
+                    <!-- Item Service 02-->
+                    <div class="service-02">
+                        <div class="head-service-02">
+                            <i style="background-color:black;" class="fa-solid fa-earth-americas"></i> 
+                            <h3>
+                                Yerli ve Millilik
+                            </h3>
+                        </div>
+                        <div class="caption-service-02">
+                            <p>Mühendislerimiz tarafından tasarlanmış 8 adet özgün elektronik donanımlardan tüm tasarıma
+                            </p>
                         </div>
                     </div>
                     <!-- Item Service 02-->
                 </div>
 
-                <div class="col-sm-6 col-md-4 wow fadeInUp">
+                <div class="col-md-4 wow fadeInUp">
                     <img class="img-responsive" src="img/gallery/ika.png" alt="">
                 </div>
 
-                <div class="col-sm-6 col-md-4 wow fadeInRight">
+                <div class="col-md-4 wow fadeInRight">
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa-solid fa-car-battery"></i>
                             <h3>
-                                Ultra Retina ready desing
-                                <span>sed do eiusmod tempor</span>
+                                Uzun Ömür
                             </h3>
                         </div>
                         <div class="caption-service-02">
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                et.
-                                Ut wisi enim ad minim veniam, quis nostrud.</p>
+                            <p>Sahip olduğu 4s 10p bağlanmış Li-on batarya teknolojisi ile hem daha yüksek yaşam döngüsü
+                                hemde daha yüksek pil kapsitesi</p>
+                        </div>
+                    </div>
+                    <div class="service-02">
+                        <div class="head-service-02">
+                            <i style="background-color:black;" class="fa-solid fa-eye"></i>
+                            <h3>
+                                Görüntü İşleme
+                            </h3>
+                        </div>
+                        <div class="caption-service-02">
+                            <p>Anlık olarak HD fotoğraf ve video kaydedebilme ve çift kamera ile yörünge takibi</p>
+                        </div>
+                    </div>
+                    <div class="service-02">
+                        <div class="head-service-02">
+                            <i style="background-color:black;" class="fa fa-arrows"></i>
+                            <h3>
+                                Eğim
+                            </h3>
+                        </div>
+                        <div class="caption-service-02">
+                            <p>%40 eğime kadar aktif bir şekilde çalışabilme</p>
                         </div>
                     </div>
                     <!-- Item Service 02-->
@@ -79,16 +115,13 @@ $page_title = "Greenguard"; ?>
                     <!-- Item Service 02-->
                     <div class="service-02">
                         <div class="head-service-02">
-                            <i style="background-color:black;" class="fa fa-certificate"></i>
+                            <i style="background-color:black;" class="fa-solid fa-gauge-high"></i>
                             <h3>
-                                Ultra Retina ready desing
-                                <span>sed do eiusmod tempor</span>
+                                Hız
                             </h3>
                         </div>
                         <div class="caption-service-02">
-                            <p>Lorem ipsum dolor sit amet, adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                                et.
-                                Ut wisi enim ad minim veniam, quis nostrud.</p>
+                            <p>Aracın hızı eğim ve engebeye bağlı olarak 2 m/s kadar çıkabilmektedir</p>
                         </div>
                     </div>
                     <!-- Item Service 02-->
@@ -109,7 +142,7 @@ $page_title = "Greenguard"; ?>
             <div class="circle_bottom"></div>
         </div>
         <div class="info_vertical">
-            <h1><span>Galeri</span></h1> 
+            <h1><span>Galeri</span></h1>
         </div>
     </div>
     <!-- End Info title Blog-->
@@ -126,7 +159,7 @@ $page_title = "Greenguard"; ?>
                         die("Connection failed: " . $conn->connect_error);
                     }
 
-                    $sql = "SELECT * FROM gallery";
+                    $sql = "SELECT * FROM gallery WHERE image_group='1' ORDER BY image_id DESC LIMIT 10;";
                     $result = $conn->query($sql);
                     $group_id = "-1";
                     if ($result->num_rows > 0) {
@@ -137,16 +170,11 @@ $page_title = "Greenguard"; ?>
                                 ?>
                                 <li>
                                     <div class="hover">
-                                        <img src="img/gallery/<?php echo $row["image_url"];?>" alt="">
-                                        <a href="img/gallery/<?php echo $row["image_url"];?>" class="ligbox-image" title="Image">
+                                        <img src="img/gallery/<?php echo $row["image_url"]; ?>" alt="">
+                                        <a href="img/gallery/<?php echo $row["image_url"]; ?>" class="ligbox-image">
                                             <div class="overlay"></div>
                                         </a>
-                                    </div>
-                                    <div class="info">
-                                        Responsive Design
-                                        <i class="fa fa-tablet"></i>
-                                        <i class="fa fa-desktop"></i>
-                                    </div>
+                                    </div> 
                                 </li>
                                 <?php
                             }
@@ -211,7 +239,7 @@ $page_title = "Greenguard"; ?>
         <div class="circle_bottom"></div>
     </div>
     <div class="info_vertical">
-        <h1>Son<span> Paylaşımlar</span></h1> 
+        <h1>Son<span> Paylaşımlar</span></h1>
     </div>
 </div>
 <!-- End Info title Blog-->

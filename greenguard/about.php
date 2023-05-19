@@ -52,13 +52,162 @@
 
 
 
+
+
+
 <!-- Team-->
- 
-<!-- 
-                <a href="#">Bilim Ekibi</a>
-                End Team-->
 
+<div style="background-color:#f8f4f4;" id="team" class="team_area section-padding">
+    <br><br> 
+    <div class="row text-center">
+    <h1 class="title_spectial">Takımımız</h1>
+        <div class="col-md-3 col-md-offset-3 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/1.jpeg" class="img-fluid" alt="">
+                    <h3>Faruk İncedayı</h3>
+                    <p>Takım Kaptanı</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-3 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/4.jpeg" class="img-fluid" alt="">
+                    <h3>Mazlum Deniz Yüce</h3>
+                    <p>2022-2023 Eski Takım Kaptanı</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+    </div><!--- END ROW -->
+    <div class="row text-center">
+        <div class="col-md-3 col-md-offset-3 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/1.jpeg" class="img-fluid" alt="">
+                    <h3>Faruk İncedayı</h3>
+                    <p>2022-2023 Eski Mekanik Kaptanı</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-3 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/2.jpeg" class="img-fluid" alt="">
+                    <h3>Fatih Akdağ</h3>
+                    <p>Mekanik Kaptanı</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+    </div><!--- END ROW -->
+    <div class="row text-center">
+        <div class="col-md-2 col-md-offset-1 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s"
+            data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/2.jpeg" class="img-fluid" alt="">
+                    <h3>Fatih Akdağ</h3>
+                    <p>2022-2023 Eski Mekanik Ekip Üyesi</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-2 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/3.jpeg" class="img-fluid" alt="">
+                    <h3>Enes Karaerkek</h3>
+                    <p>2022-2023 Eski Aviyonik Ekip Üyesi</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-2 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/5.jpg" class="img-fluid" alt="">
+                    <h3>Nilan Bıçak</h3>
+                    <p>Mekanik Ekip Üyesi - Koordinatör</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-2 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/2.jpg" class="img-fluid" alt="">
+                    <h3>Elifnur Çetin</h3>
+                    <p>Aviyonik Ekip Üyesi</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
+        <div class="col-md-2 wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <div class="our-team">
+                <div class="single-team">
+                    <img src="img/team/6.jpeg" class="img-fluid" alt="">
+                    <h3>Rıdvan Karakaya</h3>
+                    <p>Mekanik Ekip Üyesi</p>
+                </div>
+                <ul class="social">
+                    <li><a href="#" class="fa fa-facebook facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter twitter"></a></li>
+                    <li><a href="#" class="fa fa-google google"></a></li>
+                </ul>
+            </div><!--- END OUR TEAM -->
+        </div><!--- END COL -->
 
+    </div><!--- END ROW -->
+    <br><br>
+</div>
+<!-- Team-->
 
 <!-- Info title-->
 <div class="row-fluid info_title">

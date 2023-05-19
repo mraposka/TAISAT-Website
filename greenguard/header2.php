@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Theme CSS -->
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css">
+    
+    <link type="text/css" media="screen" rel="stylesheet" href="css/team-style.css">
+    
     <!-- Responsive CSS -->
     <link type="text/css" media="screen" rel="stylesheet" href="css/theme-responsive.css">
     <!-- Skins Theme -->

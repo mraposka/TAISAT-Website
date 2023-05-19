@@ -7,7 +7,7 @@
             <!-- Nav Filters -->
             <div class="portfolioFilter">
                 <a href="#" data-filter="*" class="current">Tümü</a>
-                <a href="#yarisma" data-filter=".yarisma">Yarışma</a>
+                <a href="#ika" data-filter=".ika">Yarışma</a>
                 <a href="#etkinlik" data-filter=".etkinlik">Etkinlik</a>
                 <a href="#atolye" data-filter=".atolye">Atölye</a>
             </div>

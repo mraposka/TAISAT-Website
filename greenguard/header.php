@@ -3,26 +3,14 @@
 
 <head>
     <!-- Basic -->
-    <meta charset="utf-8">
-    <title>Jekas - Software, Studio and Corporate Responsive Template</title>
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Jekas is a Software, Studio and Corporate Responsive Template">
-    <meta name="author" content="iwthemes.com">
-
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/fontawesome/fontawesome.css" rel="stylesheet">
+    <link href="css/fontawesome/brands.css" rel="stylesheet">
+    <link href="css/fontawesome/solid.css" rel="stylesheet">  
     <!-- Theme CSS -->
     <link type="text/css" media="screen" rel="stylesheet" href="css/style.css">
     <!-- Responsive CSS -->
-    <link type="text/css" media="screen" rel="stylesheet" href="css/theme-responsive.css">
-    <!-- Skins Theme -->
-    <link type="text/css" media="screen" rel="stylesheet" href="#" class="skin_color">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="img/icons/favicon.ico">
-    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+    <link type="text/css" media="screen" rel="stylesheet" href="css/theme-responsive.css"> 
+ 
 
     <!--[if IE]>
             <link rel="stylesheet" href="css/ie/ie.css">
@@ -53,7 +41,8 @@
                         <!-- Logo-->
                         <div class="col-md-3 logo">
                             <a href="index.html" title="Back to Home">
-                                <img style="width:70%; filter: brightness(0) invert(1);" src="img/gallery/taisatlogo.png" alt="Logo" class="logo_img">
+                                <img style="width:70%; filter: brightness(0) invert(1);"
+                                    src="img/gallery/taisatlogo.png" alt="Logo" class="logo_img">
                             </a>
                         </div>
                         <!-- End Logo-->
@@ -92,24 +81,26 @@
                     <ul>
                         <li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1000"
                             data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
- 
+
                             <div class="tp-caption tp-fade fadeout fullscreenvideo" data-x="0" data-y="0"
                                 data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-endspeed="1500"
                                 data-endeasing="Power4.easeIn" data-autoplay="true" data-autoplayonlyfirsttime="false"
                                 data-nextslideatend="true" data-forcecover="1" data-dottedoverlay="twoxtwo"
                                 data-aspectratio="16:9" data-forcerewind="on" style="z-index: 2">
 
-                                <video  class="video-js vjs-default-skin" width="100%" height="100%"  data-setup="{}"  preload="auto" autoplay="autoplay" loop="" muted="" >
+                                <video class="video-js vjs-default-skin" width="100%" height="100%" data-setup="{}"
+                                    preload="auto" autoplay="autoplay" loop="" muted="">
                                     <source src='img/video/video-slide.mp4' type='video/webm'>
                                 </video>
-                            </div> 
+                            </div>
                         </li>
                         <!-- END SLIDE  01-->
 
                         <!-- SLIDE  02-->
                         <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000">
                             <!-- MAIN IMAGE -->
-                            <img src="img/slide/slides/s1.PNG" alt="slidebg1" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="img/slide/slides/s1.PNG" alt="slidebg1" data-bgfit="cover"
+                                data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -139,7 +130,8 @@
                         <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000"
                             data-saveperformance="off">
                             <!-- MAIN IMAGE -->
-                            <img src="img/slide/slides/s2.jpg" alt="power-to-creators-slider" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <img src="img/slide/slides/s2.jpg" alt="power-to-creators-slider" data-bgfit="cover"
+                                data-bgrepeat="no-repeat">
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
